@@ -1,0 +1,146 @@
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("images/bg1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/*=========================== navigation header ===========================*/
+.navigation{
+  background: #fff;
+}
+.navigation div ul li .nav-link{
+  color: #000;
+}
+#cpBtn{
+  padding: 2px 5px;
+}
+#cpBtn > div{
+  width: 25px;
+  height: 5px;
+  background: #000;
+  margin: 3px 0px;
+  border-radius: 4px;
+  border: none;
+  outline: 0;
+}
+.megamenu{
+  width: 1250px !important;
+  height: auto !important;
+  padding: 10px 10px !important;
+  margin-top: 10px !important;
+  margin-left: -200px !important;
+  border-radius: 0px !important;
+  border: none;
+}
+/* .mega_menu_content{
+  display: inline-flex;
+}
+.mega_menu_content .left_side{
+  padding: 10px 10px;
+}
+.mega_menu_content .left_side i{
+  font-size: 30px;
+  color: #000;
+}
+.mega_menu_content .right_side{
+  padding: 10px 10px;
+}
+.mega_menu_content .right_side h1{
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.mega_menu_content .right_side p{
+  font-size: 14px;
+} */
+
+.my_header{
+  background: #bebebe;
+  padding: 0px 20px;
+}
+.my_contact{
+  float: right;
+}
+.my_contact a{
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*================================= content =================================*/
+.content{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+/*=============================== content_two ===============================*/
+.content_two{
+  padding: 100px 0px;
+  background: #fff;
+}
+.content_two .list_link{
+  border: none;
+  padding: 50px 0px;
+  /* border-radius: 10px; */
+  top: 100px;
+  position: sticky;
+  -webkit-position:sticky;
+}
+.content_two .list_link ul li{
+  line-height: 40px;
+  list-style: none;
+}
+.content_two .list_link ul li a{
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.content_two .service_content{
+  padding-bottom: 100px;
+}
+.content_two .service_content h1{
+  text-align: center;
+  font-size: 30px;
+}
+.content_two .service_content p{
+  text-align: justify;
+}
+/* .service_one, .service_three, .service_five{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("images/bg1.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 30px;
+  color: #fff;
+}
+.service_one h1, .service_three h1, .service_five h1{
+  color: #fff;
+} */
+.service_one, .service_three, .service_five, .service_two, .service_four{
+  padding: 100px 30px;
+  color: #000;
+}
+.service_two h1, .service_four h1{
+  color: #000;
+}
+
+
+
+/*============================== content_three ==============================*/
+.content_three{
+  padding: 100px 0px;
+  background: #3399ff;
+}
+.content_three h1{
+  font-size: 50px;
+  text-transform: capitalize;
+  color: #fff;
+  text-align: center;
+}
